@@ -1,1 +1,38 @@
+:root {
+  --primary-color: #ff8787;
+  --secondary-color: #e7e7e7;
+  --third-color: #ededed;
+}
 
+@media (max-width: 980px) {
+}
+
+nav {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 28px;
+  background-color: var(--secondary-color);
+  padding: 0;
+}
+nav .barywool {
+  font-size: 54px;
+  height: 80px;
+  color: var(--primary-color);
+}
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.menu {
+  margin-top: 100px;
+}
+
+/*
+h1 {
+  background-image: url(/img/banner2.png);
+  font-size: 200px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  line-height: 800px;
+  color: var(--third-color);
+  text-align: right;
+} */

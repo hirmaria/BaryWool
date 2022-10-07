@@ -15,27 +15,54 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
       rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
     />
   </head>
   <body>
-    <!-- As a link -->
-    <nav class="navbar bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-      </div>
-    </nav>
-
     <!-- As a heading -->
-    <nav class="navbar bg-light">
+    <nav class="navbar fixed-top">
       <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
+        <a class="navbar-brand barywool ms-5" href="/">Barywool</a>
       </div>
     </nav>
-    <h1>Hello, world!</h1>
+    <!--menu-->
+    <nav class="navbar navbar-expand-md fixed-top menu">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse justify-content-center navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-md-0">
+            <li class="nav-item mx-5">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="#">Goods</a>
+            </li>
+            <li class="nav-item mx-5">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1>Barywool</h1>
     <h1>Hello, world!</h1>
     <h1>Hello, world!</h1>
     <h1>Hello, world!</h1>
