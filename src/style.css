@@ -52,7 +52,7 @@ header h5 {
 }
 h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 96px;
+  font-size: 80px;
   font-weight: 700;
   color: var(--primary-color);
   text-align: center;
@@ -74,8 +74,7 @@ img {
 .contact li {
   list-style: none;
   font-size: 32px;
-  padding-top: 40px;
-  padding-left: 150px;
+  padding-top: 20px;
 }
 a {
   text-decoration: none;
@@ -84,4 +83,8 @@ a {
 i {
   color: var(--primary-color);
   padding-right: 20px;
+}
+form {
+  margin: 0 auto;
+  max-width: 50%;
 }
