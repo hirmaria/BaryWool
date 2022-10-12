@@ -22,9 +22,6 @@ nav .barywool {
 .nav-link:hover {
   color: var(--primary-color);
 }
-.menu {
-  margin-top: 100px;
-}
 
 /*
 h1 {
