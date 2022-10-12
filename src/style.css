@@ -12,11 +12,9 @@ nav {
   font-weight: 700;
   font-size: 28px;
   background-color: var(--secondary-color);
-  padding: 0;
 }
-nav .barywool {
-  font-size: 54px;
-  height: 80px;
+.navbar-brand {
+  font-size: 46px;
   color: var(--primary-color);
 }
 .nav-link:hover {
