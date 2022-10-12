@@ -23,13 +23,26 @@ nav .barywool {
   color: var(--primary-color);
 }
 
-/*
-h1 {
-  background-image: url(/img/banner2.png);
-  font-size: 200px;
-  font-family: "Dancing Script", cursive;
+header {
+  margin-top: 55px;
+  padding-right: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: url(/img/banner2.png);
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   font-weight: 700;
-  line-height: 800px;
-  color: var(--third-color);
+  color: white;
   text-align: right;
-} */
+}
+header h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 200px;
+}
+header h5 {
+  font-size: 40px;
+  position: relative;
+  top: -50px;
+}
