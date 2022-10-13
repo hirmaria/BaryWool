@@ -26,7 +26,6 @@
       src="https://kit.fontawesome.com/6eafd148bd.js"
       crossorigin="anonymous"
     ></script>
-    <script src="/src/app.js"></script>
   </head>
   <body>
     <!--navbar-->
@@ -171,6 +170,7 @@
       <div class="contact" id="contact">
         <h2>Contacts</h2>
         <p class="text-center">You can find us in the web</p>
+
         <ul>
           <li>
             <i class="fa-brands fa-instagram"></i>
@@ -198,34 +198,33 @@
           </li>
         </ul>
         <p class="py-3 text-center">Or just send us a message</p>
-        <form action="" class="text-center">
-          <div class="mb-3">
-            <input
-              type="name"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Name"
-            />
-          </div>
+        <form action="">
+          <input
+            type="text"
+            class="form-control mb-3"
+            id="name"
+            placeholder="Name"
+          />
 
-          <div class="mb-3">
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-          <div class="mb-3">
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
-          </div>
-          <div class="form-example">
-            <input type="submit" value="Get in touch!" />
-          </div>
+          <input
+            type="email"
+            class="form-control mb-3"
+            placeholder="name@example.com"
+          />
+
+          <textarea
+            type="text"
+            class="form-control mb-3"
+            placeholder="Write your message here"
+            rows="3"
+          ></textarea>
+
+          <input
+            type="submit"
+            class="form-control mb-3"
+            value="Get in touch!"
+            id="submit"
+          />
         </form>
       </div>
 
@@ -237,5 +236,6 @@
         >
       </footer>
     </div>
+    <script src="/src/app.js"></script>
   </body>
 </html>
