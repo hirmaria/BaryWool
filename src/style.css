@@ -72,10 +72,13 @@ img {
 }
 
 .contact li {
-  text-align: center;
   list-style: none;
   font-size: 24px;
   padding-top: 20px;
+}
+.contact-vertical {
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
 }
 a {
   text-decoration: none;
