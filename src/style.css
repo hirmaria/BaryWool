@@ -31,6 +31,9 @@
   .contact li {
     font-size: 18px !important;
   }
+  footer p {
+    font-size: 10px !important;
+  }
 }
 
 html {
@@ -98,7 +101,7 @@ img {
   padding: 5px 5px;
   margin-top: 25px;
 }
-ul {
+.contact ul {
   padding-left: 0;
 }
 .contact li {
@@ -129,4 +132,7 @@ form {
 .button:hover {
   background-color: var(--primary-color);
   color: white;
+}
+footer p {
+  font-size: 14px;
 }
